@@ -20,6 +20,7 @@ public class OldController implements Controller {
 
         System.out.println("OldController.handleRequest");
 
-        return null;
+        // view 조회할 수 있도록 변경
+        return new ModelAndView("new-form");
     }
 }
